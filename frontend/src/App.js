@@ -28,6 +28,8 @@ import { listProductCategories } from './actions/productActions';
 import LoadingBox from './components/LoadingBox';
 import MessageBox from './components/MessageBox';
 import MapScreen from './screens/MapScreen';
+import About from './screens/About';
+import Landing from './screens/Landing';
 
 function App() {
   const cart = useSelector((state) => state.cart);
@@ -61,8 +63,8 @@ function App() {
             >
               <i className="fa fa-bars"></i>
             </button>
-            <Link className="brand" to="/">
-              amazona
+            <Link className="brand" to="/shop">
+              ElCubo
             </Link>
           </div>
           <div>
@@ -73,6 +75,9 @@ function App() {
             ></Route>
           </div>
           <div>
+          <Link to="/about">
+              About us
+            </Link>
             <Link to="/cart">
               Cart
               {cartItems.length > 0 && (
@@ -239,11 +244,15 @@ function App() {
             component={OrderListScreen}
           ></SellerRoute>
 
-          <Route path="/" component={HomeScreen} exact></Route>
+          <Route path="/shop" component={HomeScreen} exact></Route>
+          <Route path="/about" component={About} exact></Route>
+          <Route path="/" component={Landing} exact></Route>
         </main>
+        
         <footer className="row center">All right reserved</footer>
       </div>
     </BrowserRouter>
+    
   );
 }
 

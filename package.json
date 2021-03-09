@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/basir/amazona.git"
+    "url": "git+https://github.com/chipiriguino/e-commerce"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/basir/amazona/issues"
+    "url": "https://github.com/chipiriguino/e-commerce"
   },
-  "homepage": "https://github.com/basir/amazona#readme",
+  "homepage": "https://github.com/chipiriguino/e-commerce",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "dotenv": "^8.2.0",
