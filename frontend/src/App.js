@@ -74,7 +74,7 @@ function App() {
               )}
             ></Route>
           </div>
-          <div>
+          <div className="media-nav">
           <Link to="/about">
               About us
             </Link>
