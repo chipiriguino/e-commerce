@@ -6,7 +6,7 @@ export default function About() {
 
   return (
     <div>
-     Esyo es about us
+     Esto es about us
     </div>
   );
 }
