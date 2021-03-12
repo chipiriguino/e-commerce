@@ -27,7 +27,7 @@ body {
 }
 header {
   grid-area: header;
-  background-color: #203040;
+  background-color: black;
 }
 main {
   grid-area: main;
@@ -35,7 +35,7 @@ main {
 }
 footer {
   grid-area: footer;
-  background-color: #203040;
+  background-color: black;
   color: #ffffff;
 }
 /* Common */
@@ -270,7 +270,7 @@ img.large {
   min-width: 12rem;
   padding: 1rem;
   z-index: 1;
-  background-color: #203040;
+  background-color: black;
   margin: 0;
   margin-top: 0.4rem;
   border-radius: 0.5rem;
@@ -377,9 +377,6 @@ img.large {
   .cubos img{
     margin: 20px;
   }
-.cubos img:hover{
-  opacity: 20%;
-}
 .media{
   display: flex;
   flex-direction: row;
@@ -406,17 +403,6 @@ img.large {
   margin-top: 40px;
 }
 /* Visible texto */
-.cubos:hover > figcaption {
-  display:block;
-  transition: all .5s;
-}
-#content-item .item:hover img {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-  -webkit-transition: all 0.8s;
-  transition: all 0.8s;
-  opacity: 1;
-}
 #content-item .item .caption {
   position: absolute;
   bottom: -50px;
