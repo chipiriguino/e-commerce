@@ -54,7 +54,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="grid-container">
-        <header className="row">
+        <header className="row row12">
           <div>
             <button
               type="button"
