@@ -47,7 +47,7 @@ export default function Landing() {
                 <a href="https://www.instagram.com/weareelcubo/">Instagram</a>
                 <a href="https://www.facebook.com/El-CUBO-106282604108753">Facebook</a>
                 <a href="https://twitter.com/weareelcubo">Twitter</a>
-                <a href="">Whatsapp</a>
+                <a href="">Whatsap</a>
                 <a href="">We Chat</a>
                 <a href="https://codepen.io/chipiriguino/pen/YzwwxxJ?editors=1010">E-mail</a>
             </nav>
