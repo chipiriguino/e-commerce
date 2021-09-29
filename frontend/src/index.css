@@ -14,6 +14,14 @@ body {
   height: 100%;
 }
 
+aside{
+  background-image: url("https://www.publicdomainpictures.net/pictures/240000/velka/background-triangles-abstract.jpg");
+  background-position: 100%;
+  background-position: cover;
+  background-size:100%;
+  background-color:rgb(32, 130, 155) ;
+}
+
 /* Layout */
 .grid-container {
   display: grid;
@@ -27,7 +35,7 @@ body {
 }
 header {
   grid-area: header;
-  background-color: black;
+  background-color:rgb(32, 130, 155)
 }
 main {
   grid-area: main;
@@ -36,6 +44,8 @@ main {
 footer {
   grid-area: footer;
   background-color: black;
+  background-image: url("https://www.publicdomainpictures.net/pictures/240000/velka/background-triangles-abstract.jpg");
+  background-position: 100%;
   color: #ffffff;
 }
 /* Common */
@@ -188,6 +198,7 @@ img.small {
 }
 img.medium {
   max-width: 29rem;
+  min-height: 29rem;
   width: 100%;
 }
 img.large {
@@ -195,6 +206,8 @@ img.large {
 }
 
 /* Card */
+
+
 .card {
   border: 0.1rem #c0c0c0 solid;
   background-color: #f8f8f8;
@@ -372,6 +385,7 @@ img.large {
  justify-content: center;
  margin-top: 10%;
  flex-wrap: wrap;
+ 
   }
 
   .cubos img{

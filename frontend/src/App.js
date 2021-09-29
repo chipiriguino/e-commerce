@@ -75,6 +75,9 @@ function App() {
             ></Route>
           </div>
           <div className="media-nav">
+          <Link to="/">
+              Home
+            </Link>
           <Link to="/about">
               About us
             </Link>
