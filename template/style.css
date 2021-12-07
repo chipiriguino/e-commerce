@@ -26,7 +26,7 @@ header {
 }
 main {
   grid-area: main;
-  padding: 1rem;
+  padding: 0rem;
 }
 footer {
   grid-area: footer;
@@ -72,11 +72,11 @@ a.brand {
 /* Image */
 img {
   border-radius: 0.5rem;
-}
+/* }
 img.medium {
   max-width: 29rem;
   width: 100%;
-}
+} */
 
 /* Card */
 .card {
@@ -99,3 +99,5 @@ img.medium {
   color: #f0c040;
   margin: 0.1rem;
 }
+
+

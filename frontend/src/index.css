@@ -14,14 +14,6 @@ body {
   height: 100%;
 }
 
-aside{
-  background-image: url("https://www.publicdomainpictures.net/pictures/240000/velka/background-triangles-abstract.jpg");
-  background-position: 100%;
-  background-position: cover;
-  background-size:100%;
-  background-color:rgb(32, 130, 155) ;
-}
-
 /* Layout */
 .grid-container {
   display: grid;
@@ -35,16 +27,15 @@ aside{
 }
 header {
   grid-area: header;
-  background-color:rgb(32, 130, 155)
+  background-color:black
 }
 main {
   grid-area: main;
-  padding: 1rem;
+  padding: 0rem;
 }
 footer {
   grid-area: footer;
   background-color: black;
-  background-image: url("https://www.publicdomainpictures.net/pictures/240000/velka/background-triangles-abstract.jpg");
   background-position: 100%;
   color: #ffffff;
 }
@@ -127,6 +118,8 @@ a.brand {
   justify-content: space-between;
   align-items: center;
 }
+
+
 .row.center {
   justify-content: center;
 }
@@ -156,7 +149,8 @@ aside {
   position: fixed;
   width: 30rem;
   height: 100%;
-  background-color: #efefef;
+  background-color:rgb(29, 26, 26);
+  color:rgb(165, 165, 45);
   z-index: 1000;
   transform: translateX(-30rem);
   transition: all 0.5s;
@@ -166,7 +160,7 @@ aside.open {
 }
 button.open-sidebar {
   font-size: 3rem;
-  padding: 0.2rem 0.5rem;
+  padding: 0.1rem 0.5rem;
   margin: 0 0.5rem;
   background: none;
   color: #ffffff;
@@ -193,12 +187,14 @@ img {
   border-radius: 0.5rem;
 }
 img.small {
-  max-width: 5rem;
+  max-width: 18rem;
   width: 100%;
 }
 img.medium {
-  max-width: 29rem;
+  max-width: 27rem;
+  min-width: 27rem;
   min-height: 29rem;
+  max-height: 29rem;
   width: 100%;
 }
 img.large {
@@ -363,6 +359,17 @@ img.large {
   border-radius: 0 1rem 1rem 0;
   border-left: 0;
 }
+#reviews{
+  text-align: center;
+}
+.review-body{
+  border: 1px solid #c0c0c0;
+    padding: 5px;
+    margin:5px 10px;
+    border-radius: 0.5rem;
+    background-color: #f8f8f8;
+}
+@media screen and (min-width: 700px) {.review-body{margin: 20px 10%;border-radius: 1%;padding: 35px;}}
 /* Pagination */
 .pagination a {
   padding: 1rem;
@@ -383,7 +390,7 @@ img.large {
 .cubos{
  display: flex;
  justify-content: center;
- margin-top: 10%;
+ margin-top: 1%;
  flex-wrap: wrap;
  
   }
@@ -406,7 +413,7 @@ img.large {
   }
 
   .media a:hover{
-    color:#1717FF
+    color:#27272b
  }
 
 
@@ -439,12 +446,12 @@ img.large {
     height: fit-content;
   }
   a.brand{
-    font-size: 1.7rem;
+  display: none;
   }
-  button.open-sidebar {
+  /* button.open-sidebar {
   font-size: 2.3rem;
   padding: 0.1rem 0.3rem;
-  }
+  } */
   .table{
     font-size: 0.8rem;
   }
@@ -463,5 +470,35 @@ img.large {
   input{
     padding: 0.5rem;
   }
+  form.search{
+    display: none;
+  }
+ .row12{
+   padding:10px
+ }
  
+  }
+
+
+  .jordan-landing{
+    max-width:100%;
+    height:auto;
+  }
+  .jordan-landing-v{
+min-width: 100%;
+    }
+
+  .ropa-title{
+   margin-left: 25%;
+  }
+
+  @media screen and (max-width: 700px) {
+    .jordan-landing{
+    display:none
+    }
+  }
+  @media screen and (min-width: 700px) {
+    .jordan-landing-v{
+      display:none
+      }
   }

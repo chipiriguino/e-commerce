@@ -63,8 +63,8 @@ function App() {
             >
               <i className="fa fa-bars"></i>
             </button>
-            <Link className="brand" to="/shop">
-              ElCubo
+            <Link className="brand" to="/">
+              XXX
             </Link>
           </div>
           <div>
@@ -77,9 +77,6 @@ function App() {
           <div className="media-nav">
           <Link to="/">
               Home
-            </Link>
-          <Link to="/about">
-              About us
             </Link>
             <Link to="/cart">
               Cart
@@ -159,6 +156,7 @@ function App() {
                 <i className="fa fa-close"></i>
               </button>
             </li>
+            
             {loadingCategories ? (
               <LoadingBox></LoadingBox>
             ) : errorCategories ? (

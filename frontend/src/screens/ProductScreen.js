@@ -56,7 +56,7 @@ export default function ProductScreen(props) {
         <MessageBox variant="danger">{error}</MessageBox>
       ) : (
         <div>
-          <Link to="/shop">Back to result</Link>
+          <Link to="/">Go back</Link>
           <div className="row top">
             <div className="col-2">
               <img
@@ -158,7 +158,7 @@ export default function ProductScreen(props) {
             )}
             <ul>
               {product.reviews.map((review) => (
-                <li key={review._id}>
+                <li className="review-body" key={review._id}>
                   <strong>{review.name}</strong>
                   <Rating rating={review.rating} caption=" "></Rating>
                   <p>{review.createdAt.substring(0, 10)}</p>

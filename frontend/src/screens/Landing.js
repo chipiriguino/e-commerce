@@ -1,56 +1,74 @@
-import React from 'react'
+import React from 'react';
+import Homee from '../components/Homee';
+import Services from '../components/Services';
+
 
 export default function Landing() {
     return (
         <div>
-            <ul className="cubos">
+            <Homee />
+            <Services/>
+        
+            {/* <ul className="cubos">
             <div id="content-item">
 			<div class="col-md-4">
 				<div class="item">
-                <a href="/shop">
-                    <img  src="https://pbs.twimg.com/media/EY2wQRCXgAI8B4L?format=jpg&name=small" alt="logo granate" width="220" /> 
+                <a href="/search/category/sneakers">
+                    <img src="/images/zapatos.jpeg" alt="logo turquesa" width="250" height="350"  /></a>
+                    </div>
+                  </div>
+                  <h3 className="ropa-title">Sneakers</h3>
+                  </div>
+            <div id="content-item">
+			<div class="col-md-4">
+				<div class="item">
+                <a href="/search/category/chaquetones">
+                    <img  src="/images/chaqueta.jpeg" alt="logo granate" width="250" height="350" /> 
                         </a>
                     </div>
                   </div>
+                  <h3 className="ropa-title">Chaquetones</h3>
                   </div>
+
 
                   <div id="content-item">
 			<div class="col-md-4">
 				<div class="item">
-                <a href="/shop">
-                    <img src="https://pbs.twimg.com/media/EY2wPj6WkAAKpce?format=jpg&name=small" alt="logo turquesa" width="220" /></a>
+                <a href="search/category/camiseta">
+                    <img  src="/images/camiseta.jpeg" alt="logo naranja" width="250" height="350" /></a>
                     </div>
                   </div>
-                  </div>
-
-                  <div id="content-item">
-			<div class="col-md-4">
-				<div class="item">
-                <a href="/shop">
-                    <img  src="https://pbs.twimg.com/media/EY2wO23XYAA1KVk?format=jpg&name=small" alt="logo naranja" width="232" /></a>
-                    </div>
-                    
-                  </div>
+                  <h3 className="ropa-title">Camisetas</h3>
                   </div>
 
                     <div id="content-item">
 			<div class="col-md-4">
 				<div class="item">
-                <a href="/shop">
-                    <img  src="https://pbs.twimg.com/media/EY2wMlvXQAMmB-W?format=jpg&name=small" alt="logo amarillo" width="220" /></a>
+                <a href="search/category/chaquetas">
+                    <img  src="/images/chaq.jpeg" alt="logo amarillo" width="250" height="350" /></a>
                     </div>
                   </div>
+                  <h3 className="ropa-title">Chaquetas</h3>
                   </div>
-            </ul>
+                  <div id="content-item">
+			<div class="col-md-4">
+				<div class="item">
+                <a href="search/category/complementos">
+                    <img  src="/images/gorra.jpeg" alt="logo amarillo" width="250" height="350" /></a>
+                    </div>
+                  </div>
+                  <h3 className="ropa-title">Complementos</h3>
+                  </div>
+            </ul> */}
 
-            <nav className="media">
+            {/* <nav className="media">
                 <a href="https://www.instagram.com/weareelcubo/">Instagram</a>
                 <a href="https://www.facebook.com/El-CUBO-106282604108753">Facebook</a>
                 <a href="https://twitter.com/weareelcubo">Twitter</a>
                 <a href="">Whatsap</a>
                 <a href="">We Chat</a>
                 <a href="https://codepen.io/chipiriguino/pen/YzwwxxJ?editors=1010">E-mail</a>
-            </nav>
+            </nav> */}
         </div>
     )
 }
