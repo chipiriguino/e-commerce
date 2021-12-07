@@ -174,6 +174,7 @@ function App() {
               ))
             )}
           </ul>
+          <img  className="jordan" src="/images/nike-logo.png"/>
         </aside>
         <main>
           <Route path="/seller/:id" component={SellerScreen}></Route>

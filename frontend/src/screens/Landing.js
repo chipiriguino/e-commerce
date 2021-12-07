@@ -12,6 +12,8 @@ export default function Landing() {
             <h1 className="marcas-title">Marcas</h1>
             <div class="border"></div>
         <div className="marcas-align"><img class="marcas" src="/images/marcas.png"/> <img class="marcas" src="/images/marcass.jpeg"/></div>
+        <h1 className="marcas-title">Más Vendido</h1>
+        <div class="border"></div>
         <Zapas/>
             {/* <ul className="cubos">
             <div id="content-item">

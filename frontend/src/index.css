@@ -506,6 +506,7 @@ min-width: 100%;
   .marcas{
     max-width:50%;
     max-height: 30%;
+ 
   }
   .marcas-align{
     display:flex;
@@ -514,6 +515,7 @@ min-width: 100%;
   .marcas-title{
     text-align:center;
     font-size:32px;
+    color:black;
   }
   .border {
     width: 160px;
@@ -521,6 +523,9 @@ min-width: 100%;
     background: black;
     margin: 20px auto;
     background: black;
+}
+.jordan{
+  margin-top:100px;
 }
 @media screen and (max-width: 700px) {
   .marcas-align{
@@ -530,6 +535,7 @@ min-width: 100%;
   .marcas{
     padding: 5px 0;
     max-width:90%;
+
   }
 }
 
