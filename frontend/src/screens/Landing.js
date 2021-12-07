@@ -1,6 +1,7 @@
 import React from 'react';
 import Homee from '../components/Homee';
 import Services from '../components/Services';
+import Zapas from '../components/Zapas';
 
 
 export default function Landing() {
@@ -8,7 +9,10 @@ export default function Landing() {
         <div>
             <Homee />
             <Services/>
-        
+            <h1 className="marcas-title">Marcas</h1>
+            <div class="border"></div>
+        <div className="marcas-align"><img class="marcas" src="/images/marcas.png"/> <img class="marcas" src="/images/marcass.jpeg"/></div>
+        <Zapas/>
             {/* <ul className="cubos">
             <div id="content-item">
 			<div class="col-md-4">

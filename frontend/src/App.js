@@ -79,7 +79,7 @@ function App() {
               Home
             </Link>
             <Link to="/cart">
-              Cart
+            🛒
               {cartItems.length > 0 && (
                 <span className="badge">{cartItems.length}</span>
               )}
@@ -147,7 +147,7 @@ function App() {
         <aside className={sidebarIsOpen ? 'open' : ''}>
           <ul className="categories">
             <li>
-              <strong>Categories</strong>
+              <strong>Productos</strong>
               <button
                 onClick={() => setSidebarIsOpen(false)}
                 className="close-sidebar"
@@ -163,8 +163,8 @@ function App() {
               <MessageBox variant="danger">{errorCategories}</MessageBox>
             ) : (
               categories.map((c) => (
-                <li key={c}>
-                  <Link
+                <li  key={c}>
+                  <Link className="productos-link"
                     to={`/search/category/${c}`}
                     onClick={() => setSidebarIsOpen(false)}
                   >

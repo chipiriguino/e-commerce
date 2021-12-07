@@ -276,7 +276,7 @@ img.large {
   position: absolute;
   display: none;
   right: 0;
-  min-width: 12rem;
+  min-width: 15rem;
   padding: 1rem;
   z-index: 1;
   background-color: black;
@@ -492,13 +492,45 @@ min-width: 100%;
    margin-left: 25%;
   }
 
-  @media screen and (max-width: 700px) {
-    .jordan-landing{
-    display:none
-    }
+ 
+
+
+  .margin{
+    margin-top:9px
   }
-  @media screen and (min-width: 700px) {
-    .jordan-landing-v{
-      display:none
-      }
+  .productos-link{
+    color:white;
+    font-size:20px;
+    font-weight:bold
   }
+  .marcas{
+    max-width:50%;
+    max-height: 30%;
+  }
+  .marcas-align{
+    display:flex;
+    max-width:100%
+  }
+  .marcas-title{
+    text-align:center;
+    font-size:32px;
+  }
+  .border {
+    width: 160px;
+    height: 2px;
+    background: black;
+    margin: 20px auto;
+    background: black;
+}
+@media screen and (max-width: 700px) {
+  .marcas-align{
+    flex-direction:column;
+    align-items: center;
+  }
+  .marcas{
+    padding: 5px 0;
+    max-width:90%;
+  }
+}
+
+

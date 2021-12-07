@@ -54,7 +54,7 @@ export default function SearchScreen(props) {
   };
   return (
     <div>
-      <div className="row">
+      <div className="row margin">
         {loading ? (
           <LoadingBox></LoadingBox>
         ) : error ? (
