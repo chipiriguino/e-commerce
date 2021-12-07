@@ -118,6 +118,12 @@ a.brand {
   justify-content: space-between;
   align-items: center;
 }
+.row1 {
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: center;
+}
 
 
 .row.center {
@@ -470,9 +476,9 @@ img.large {
   input{
     padding: 0.5rem;
   }
-  form.search{
+  /* form.search{
     display: none;
-  }
+  } */
  .row12{
    padding:10px
  }

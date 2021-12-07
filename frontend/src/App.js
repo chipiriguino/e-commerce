@@ -68,11 +68,11 @@ function App() {
             </Link>
           </div>
           <div>
-            <Route
+            {/* <Route
               render={({ history }) => (
                 <SearchBox history={history}></SearchBox>
               )}
-            ></Route>
+            ></Route> */}
           </div>
           <div className="media-nav">
           <Link to="/">
@@ -156,7 +156,11 @@ function App() {
                 <i className="fa fa-close"></i>
               </button>
             </li>
-            
+            <Route
+              render={({ history }) => (
+                <SearchBox history={history}></SearchBox>
+              )}
+            ></Route> 
             {loadingCategories ? (
               <LoadingBox></LoadingBox>
             ) : errorCategories ? (
@@ -173,7 +177,7 @@ function App() {
                 </li>
               ))
             )}
-          </ul>
+          </ul>  
           <img  className="jordan" src="/images/nike-logo.png"/>
         </aside>
         <main>

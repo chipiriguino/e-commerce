@@ -8,7 +8,7 @@ export default function SearchBox(props) {
   };
   return (
     <form className="search" onSubmit={submitHandler}>
-      <div className="row">
+      <div className="row1">
         <input
           type="text"
           name="q"
