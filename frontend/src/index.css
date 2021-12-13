@@ -251,6 +251,8 @@ img.large {
 .alert-info {
   color: #2020a0;
   background-color: #e0e0ff;
+  max-width:70%;
+ margin-left: 15%;
 }
 .alert-danger {
   color: #a02020;
@@ -541,8 +543,18 @@ min-width: 100%;
   .marcas{
     padding: 5px 0;
     max-width:90%;
+    }
 
+    .p-style{
+      margin:0 5%
+    }
+    li{margin-left: 1rem;}
+    .alert-info {
+      margin-bottom: 10%;
   }
+  /* .goBack{
+    margin-top:100px
+  } */
 }
 
 

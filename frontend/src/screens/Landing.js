@@ -2,6 +2,7 @@ import React from 'react';
 import Homee from '../components/Homee';
 import Services from '../components/Services';
 import Zapas from '../components/Zapas';
+import MoreSell from '../components/MoreSell';
 
 
 export default function Landing() {
@@ -15,6 +16,7 @@ export default function Landing() {
         <h1 className="marcas-title">Más Vendido</h1>
         <div class="border"></div>
         <Zapas/>
+        <MoreSell className="hidenn" />
             {/* <ul className="cubos">
             <div id="content-item">
 			<div class="col-md-4">

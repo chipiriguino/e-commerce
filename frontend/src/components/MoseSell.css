@@ -4,7 +4,7 @@
   --columns: 3;
 }
 
-.body-zapas{
+.body-zapas1{
   color: #5A626F;
   background-color: #E7FFF4;
   font-family: 'Open Sans Condensed', sans-serif;
@@ -147,14 +147,6 @@
   }
 
 }
-@media (min-width:900px){
-  :root {
-    --columns: 7;
+@media (max-width:900px){
+.body-zapas1{display:none}
   }
-  .li2:nth-child(4n-3){
-    grid-column-start:auto;
-  }
-  .li2:nth-child(6n-5){
-    grid-column-start:2;
-  }
-}

@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import "./Zapas.css";
+import "./MoseSell.css";
 export default class Zapas extends Component {
     render() {
         return (
-            <div className="body-zapas">
+            <div className="body-zapas1">
                 <ul className="ul2">
   <li class="tiger li2">
     <div className="div2">

@@ -92,6 +92,7 @@
 	 .nav-item1 .nav-item-bg1 {
 		 background-size: 70% !important;
 		 background-position: center right !important;
+		 background-size:contain !important;
 	}
 }
  img {
