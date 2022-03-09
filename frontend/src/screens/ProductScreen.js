@@ -11,6 +11,7 @@ export default function ProductScreen(props) {
   const dispatch = useDispatch();
   const productId = props.match.params.id;
   const [qty, setQty] = useState(1);
+  const [qty1, setQty1] = useState(1);
   const productDetails = useSelector((state) => state.productDetails);
   const { loading, error, product } = productDetails;
   const userSignin = useSelector((state) => state.userSignin);
@@ -130,6 +131,25 @@ export default function ProductScreen(props) {
                                 (x) => (
                                   <option key={x + 1} value={x + 1}>
                                     {x + 1}
+                                  </option>
+                                )
+                              )}
+                            </select>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div className="row">
+                          <div>Talla</div>
+                          <div>
+                            <select
+                              value={qty1}
+                              onChange={(e) => setQty1(e.target.value)}
+                            >
+                              {[...Array(product.countInStock).keys()].map(
+                                (x) => (
+                                  <option key={x + 1} value={x + 1}>
+                                    {x + 36}
                                   </option>
                                 )
                               )}

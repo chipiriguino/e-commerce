@@ -7,7 +7,7 @@ import {
   CART_ADD_ITEM_FAIL,
 } from '../constants/cartConstants';
 
-export const addToCart = (productId, qty) => async (dispatch, getState) => {
+export const addToCart = (productId, qty,qty1) => async (dispatch, getState) => {
   const { data } = await Axios.get(`/api/products/${productId}`);
   const {
     cart: { cartItems },
@@ -28,6 +28,7 @@ export const addToCart = (productId, qty) => async (dispatch, getState) => {
         product: data._id,
         seller: data.seller,
         qty,
+        // qty1
       },
     });
     localStorage.setItem(
